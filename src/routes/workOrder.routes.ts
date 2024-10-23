@@ -15,6 +15,7 @@ import {
 
 const router = Router();
 
+// rutas
 router.post("/create", createWorkOrder);
 router.get("/", getWorkOrders);
 router.get("/:id", getWorkOrderById);
