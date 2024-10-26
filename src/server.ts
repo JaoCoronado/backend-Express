@@ -44,7 +44,7 @@ export class Server {
 
   mi_primera_api() {
     this.app.get("/", (req: Request, res: Response) => {
-      res.status(200).json({ msg: "Apifuncionando" });
+      res.status(200).json({ msg: "Apifuncionando - ContactoJair Y. Coronado A." + "\n" + "Información Personal y Profesional " + "\n" + "Correo Electrónico: jairyesidk@gmail.com " + "\n" + "Teléfono: +57 313 211 9850 " + "\n" + "LinkedIn:  linkedin.com/in/jaircoronadoalbarracin" });
     });
   }
 
